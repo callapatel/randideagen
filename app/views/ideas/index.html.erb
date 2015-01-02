@@ -4,8 +4,24 @@
     <%=button_to "Yes!", root_path(thing: "next"), class: "pull-right choose btn btn-success" %>
   </div>
 
-  <div class = 'newidea'>
-    Submit an idea you'd like to see become a reality
+
+  <div class='thoughtsbox'>
+    <div class='newidea'>
+      <a href='javascript:void(0)' onClick="$('#modal-window').modal()">
+        Submit an idea you'd like to see become a reality
+      </a>
+    </div>
   </div>
+
+
+  <div id='modal-window' class='modal fade' role='dialog' aria-labelledby='myModalLabel' aria-hidden
+  ='true' >
+  <div class='modal-dialog'>
+    <div class='modal-content'>
+      <%= render 'ideas/modal'%>
+    </div>
+  </div>
+</div>
+
 
 </div>
