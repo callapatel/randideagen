@@ -1,1 +1,17 @@
-I'm a modal form
+<div class='modal-header'>
+  <button type='button' class='close' data-dismiss='modal' aria-hidden='true'>x</button>
+  <div class='modal-title'><h2><b><i>Submit an idea! </i></b></h2></div>
+</div>
+
+<div class='modal-body'>
+  <form action='idea/new' method='POST' role='form'>
+    <div class = 'form-group'>
+      <label for='name'>Describe your idea:</label>
+      <input type='text' name='idea[name]' class='form-control' placeholder='a brief description of your plan (one only please)' id='freshideas'/>
+    </div>
+  </div>
+
+  <div class='modal-footer'>
+    <input type='submit' value='Get notified!' class='btn btn-primary'/>
+  </form>
+</div>
