@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   get "/", to: "ideas#index", as: :root
   post "/", to: "ideas#index"
+
+  post "/idea", to: "ideas#new"
+  get "/idea",      to: "ideas#new"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

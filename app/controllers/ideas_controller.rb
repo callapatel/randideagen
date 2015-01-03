@@ -6,4 +6,14 @@ class IdeasController < ApplicationController
       render :partial => "ideagene"
     end
   end
+
+  def new
+    @idea = Idea.new(params.require(:idea).permit(:name))
+    if @idea.save
+      redirect_to root_path
+    else
+      render :new
+    end
+  end
+
 end
