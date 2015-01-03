@@ -1,0 +1,28 @@
+.head-title{
+  position:absolute;
+  padding-left: 50px;
+}
+
+.first{
+  font-family: 'Montserrat', sans-serif;
+  position:relative;
+  color: gray;
+  font-size: 18px;
+  padding-left: 2px;
+  top:23px;
+  left: 0px;
+}
+.second{
+  font-family: 'Montserrat', sans-serif;
+  font-size:49px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #990202;
+}
+.third{
+
+  font-family: 'Montserrat', sans-serif;
+  font-size:60px;
+  color:#f1a2a2;
+  font-weight: bold;
+}

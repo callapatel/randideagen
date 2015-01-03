@@ -3,7 +3,7 @@ class IdeasController < ApplicationController
   def index
     #form for params view, to submit an idea
     if params[:thing] == 'next'
-      render :partial => "ideagene"
+      render :ideagene
     end
   end
 
@@ -14,6 +14,10 @@ class IdeasController < ApplicationController
     else
       render :new
     end
+  end
+
+  def ideagene
+    
   end
 
 end
