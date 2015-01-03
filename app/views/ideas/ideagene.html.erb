@@ -1,7 +1,16 @@
 <div class= 'container'>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
 
-  <%= Idea.random%>
+  <%= Idea.random %>
 take it or leave it buttons.
-if leave it == go to another random idea.
-if take it redirect to HP with a flash message. 
+
+
+<%= button_to "Take it", taken_path(info: Idea.random) %> OR <%= button_to "Leave it", root_path(thing: "next") %>
+
+
 </div>

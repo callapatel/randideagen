@@ -17,7 +17,10 @@ class IdeasController < ApplicationController
   end
 
   def ideagene
-    
+
   end
 
+  def taken
+    Idea.find_by(name: params[:info]).destroy
+  end
 end

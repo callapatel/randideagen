@@ -4,6 +4,8 @@ Rails.application.routes.draw do
 
   post "/idea", to: "ideas#new"
   get "/idea",      to: "ideas#new"
+
+  post "/ideas/taken", to: "ideas#taken", as: :taken
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
