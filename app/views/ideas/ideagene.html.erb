@@ -1,15 +1,15 @@
 <div class= 'container'>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
+  <div class = 'linespaced'>
+    <body class = "bodyit">
+      <%= Idea.random %>
 
-  <%= Idea.random %>
+      <div class="row">
+      </br>
+      </br>
+          <div class="col-md-6"><%= button_to "Take it", taken_path(info: Idea.random) %> </div>
+          <div class="col-md-6"> <%= button_to "Leave it", root_path(thing: "next") %></div>
 
-
-<%= button_to "Take it", taken_path(info: Idea.random) %> OR <%= button_to "Leave it", root_path(thing: "next") %>
-
-
+      </div>
+    </body>
+  </div>
 </div>

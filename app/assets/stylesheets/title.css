@@ -42,3 +42,8 @@ a:hover {
 a:active {
   text-decoration: none;
 }
+
+.linespaced {
+  margin-top: 18%;
+  margin-left: 2cm;
+}

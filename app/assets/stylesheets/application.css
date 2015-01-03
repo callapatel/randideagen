@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+ .bodyit {
+   text-align: center ;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+ }
+
+.thoughtsbox{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  margin-top: 30%;
+  float: right;
+
+}
