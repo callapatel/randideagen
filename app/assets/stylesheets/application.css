@@ -20,6 +20,11 @@
    font-size: 16px;
  }
 
+.bodyit1{
+  text-align: center ;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
 .thoughtsbox{
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
@@ -29,5 +34,5 @@
 }
 
 .maindrag{
-  font-size: 19px; 
+  font-size: 19px;
 }
